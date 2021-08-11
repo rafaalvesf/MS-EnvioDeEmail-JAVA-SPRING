@@ -1,11 +1,12 @@
 package com.ms.email.dtos;
 
-import lombok.Data;
+import lombok.*;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 @Data
+
 public class EmailDto {
 
     @NotBlank
